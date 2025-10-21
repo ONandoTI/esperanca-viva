@@ -21,15 +21,26 @@ A **ONG Esperança Viva** é uma organização sem fins lucrativos dedicada a pr
 
 ## 🗂️ Estrutura de Pastas
 esperanca-viva/
+
 │
 ├── index.html
+
 ├── projetos.html
+
 ├── cadastro.html
+
 ├── doacao.html
+
 │
+
 └── imagens/
+
 ├── logo.png
+
 ├── banner.jpg
+
 ├── projeto1.jpg
+
 ├── projeto2.jpg
+
 ├── projeto3.jpg
