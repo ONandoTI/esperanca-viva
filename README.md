@@ -72,12 +72,12 @@ esperanca-viva/
 ## 🚀 Publicação
 O projeto está hospedado no **GitHub Pages** e pode ser acessado no link abaixo:
 
-🔗 **[Acessar ONG Esperança Viva](https://seuusuario.github.io/esperanca-viva/)**  
+🔗 **[Acessar ONG Esperança Viva](https://ONandoTI.github.io/esperanca-viva/)**  
 *(Substitua “seuusuario” pelo seu nome de usuário do GitHub)*
 
 ---
 
 ## 👨‍💻 Autor
-**Fernando [Seu Sobrenome]**  
+**Fernando **  
 📧 contato@esperancaviva.org.br  
 📍 São Paulo - SP  
