@@ -45,3 +45,39 @@ esperanca-viva/
 ├── projeto2.jpg
 
 ├── projeto3.jpg
+
+
+
+---
+
+## 🌍 Páginas do Projeto
+
+| Página | Descrição |
+|--------|------------|
+| `index.html` | Página inicial com informações institucionais, missão, visão e valores. |
+| `projetos.html` | Apresenta os projetos sociais da ONG e explica como participar ou doar. |
+| `cadastro.html` | Contém um formulário de cadastro para voluntários e doadores. |
+| `doacao.html` | Contém uma descrição sobre doação e um formulário para preencher os dados do usuário. |
+
+---
+
+## 🧩 Tecnologias Utilizadas
+- **HTML5**  
+- Estrutura **semântica** e **acessível**  
+- Validação nativa de formulários  
+- Organização de pastas e assets otimizados  
+
+---
+
+## 🚀 Publicação
+O projeto está hospedado no **GitHub Pages** e pode ser acessado no link abaixo:
+
+🔗 **[Acessar ONG Esperança Viva](https://seuusuario.github.io/esperanca-viva/)**  
+*(Substitua “seuusuario” pelo seu nome de usuário do GitHub)*
+
+---
+
+## 👨‍💻 Autor
+**Fernando [Seu Sobrenome]**  
+📧 contato@esperancaviva.org.br  
+📍 São Paulo - SP  
