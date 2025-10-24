@@ -72,7 +72,7 @@ esperanca-viva/
 ## 🚀 Publicação
 O projeto está hospedado no **GitHub Pages** e pode ser acessado no link abaixo:
 
-🔗 **[Acessar ONG Esperança Viva](https://ONandoTI.github.io/esperanca-viva/)**  
+🔗 **[Acessar ONG Esperança Viva](https://github.com/ONandoTI/esperanca-viva)**  
 *(Substitua “seuusuario” pelo seu nome de usuário do GitHub)*
 
 ---
