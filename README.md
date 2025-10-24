@@ -36,7 +36,7 @@ esperanca-viva/
 
 └── imagens/
 
-├── logo.png
+├── logo.jpg
 
 ├── banner.jpg
 
