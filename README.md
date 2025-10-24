@@ -36,15 +36,15 @@ esperanca-viva/
 
 └── imagens/
 
-├── logo.png
+├── logo.jpg
 
 ├── banner.jpg
 
-├── projeto1.jpg
+├── projeto1.png
 
-├── projeto2.jpg
+├── projeto2.png
 
-├── projeto3.jpg
+├── projeto3.png
 
 
 
