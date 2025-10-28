@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+  /* Minha Paleta de Cores */
+  --cor-primaria: #00959b;
+  --cor-secundaria: #40cfd5;
+  --cor-destaque: #ffca28;
+  --cor-neutra-0: #ffffff;
+  --cor-neutra-1: #f5f5f5;
+  --cor-neutra-2: #cccccc;
+  --cor-neutra-3: #333333;
+  --cor-erro: #e53935;
+  --cor-sucesso: #0ea989;
+
+  --fonte-principal: 'Poppins', sans-serif;
+  --tamanho-h1: 2.5rem;
+  --tamanho-h2: 2rem;
+  --tamanho-h3: 1.5rem;
+  --tamanho-p: 1rem;
+  --tamanho-small: 0.875rem;
+
+  /* Espaçamentos (escala modular) */
+  --esp-1: 8px;
+  --esp-2: 16px;
+  --esp-3: 24px;
+  --esp-4: 32px;
+  --esp-5: 48px;
+  --esp-6: 64px;
+
+  /* Grid */
+  --max-width: 1200px;
+}

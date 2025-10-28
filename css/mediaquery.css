@@ -1,0 +1,65 @@
+/* Extra pequeno - celulares muito pequenos */
+@media (max-width: 480px) {
+  header h1 { font-size:16px; }
+  nav ul.active { display: flex; }
+  .menu-toggle { display: block; }
+  main { display: flex; flex-direction: column; padding: 0px; margin: 0;}
+  .container_sobre img { width: 90%;}
+  .container_sobre p{ margin-left: 0}
+  .container_sobre{ padding:0 auto;}
+  .secao_sobre_nos{ padding: 0 auto;}
+  #rodapecopyright{ text-align: center; font-size: 12px;}
+  .container_informacoes form {display: flex; }
+  .informacoes img{ width: 85% }
+  .container{}
+  .informacoes h1, h2, h3{ text-align: center;}
+  .forms_container form,fieldset{
+    width: 90%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Pequeno - celulares e tablets em pé */
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: var(--cor-primaria);
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    padding: var(--esp-2);
+    border-radius: 0px;
+    background: var(--cor-neutra-3);
+  }
+
+  nav ul.active { display: flex; }
+  .menu-toggle { display: block; }
+  .container{width: 100%; }
+  .container_informacoes{ width: 100%;}
+  .informacoes h1{ text-align: center;}
+}
+
+/* Médio - tablets em paisagem / notebooks pequenos */
+@media (max-width: 1024px) {
+  main { padding:20px; }
+  .NomeONG img { width:95px; }
+}
+
+/* Grande - notebooks e desktops padrão */
+@media (max-width: 1280px) {
+   main { grid-template-columns: repeat(1, 1fr); }
+  .container_sobre{ display: flex; flex-direction: column;}
+}
+
+/* Extra grande - telas muito grandes */
+@media (min-width: 1536px) {
+  body { max-width:1400px; margin:0 auto; }
+  main { grid-template-columns: repeat(1, 1fr); }
+}
+

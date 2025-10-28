@@ -1,0 +1,81 @@
+header {
+  background-color: var(--cor-primaria);
+  color: var(--cor-neutra-0);
+  padding: var(--esp-2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: var(--esp-2);
+}
+
+nav a {
+  color: var(--cor-neutra-0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--cor-destaque);
+}
+
+/* Menu hambúrguer (mobile) */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--cor-neutra-0);
+  font-size: 1.8rem;
+}
+
+article {
+  background: var(--cor-neutra-0);
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: var(--esp-3);
+  transition: transform 0.2s;
+}
+
+article:hover {
+  transform: translateY(-5px);
+}
+
+article img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  margin-bottom: var(--esp-2);
+}
+
+button, input[type="submit"] {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-neutra-0);
+  border: none;
+  padding: var(--esp-2) var(--esp-3);
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: var(--cor-primaria);
+}
+
+button:disabled {
+  background-color: var(--cor-neutra-2);
+  cursor: not-allowed;
+}
+
+/* Menu padrão (desktop) */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: var(--esp-2);
+  margin: 0;
+  padding: 0;
+}
