@@ -1,0 +1,26 @@
+form {
+  background: var(--cor-neutra-0);
+  padding: var(--esp-4);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: var(--esp-1);
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: var(--esp-2);
+  margin-bottom: var(--esp-3);
+  border: 1px solid var(--cor-neutra-2);
+  border-radius: 6px;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--cor-secundaria);
+  outline: none;
+  box-shadow: 0 0 5px var(--cor-secundaria);
+}

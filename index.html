@@ -5,53 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="ONG Esperança Viva - Transformando vidas por meio da solidariedade, educação e sustentabilidade.">
     <title>ONG Esperança Viva</title>
+
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+
 </head>
 
 <body>
     <header>
-      <img src="imagens/logo.jpg" alt="Logo da ONG Esperança Viva" width="120">
-      <h1>ONG Esperança Viva</h1>
 
-      <nav>
-        <ul>
-          <li><a href="index.html">Início</a></li>
-          <li><a href="projetos.html">Projetos</a></li>
-          <li><a href="cadastro.html">Cadastro</a></li>
-        </ul>
-    </nav>
+      <div class="conteinerHeader">
+        <div class="NomeONG">
+          <img src="imagens/logo.jpg" alt="Logo da ONG Esperança Viva" width="120">
+          <h1>ONG Esperança Viva</h1>
+          <!-- Botão do menu hamburguer -->
+        <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="doacao.html">Doação</a></li>
+          </ul>
+        </nav>
+          </div>
   </header>
 
-  <main>
-    <section>
-      <h2>Sobre Nós</h2>
-      <img src="imagens/banner.jpg" alt="Imagem ilustrativa da ONG em ação" width="400">
-      <p>A <strong>ONG Esperança Viva</strong> é uma organização sem fins lucrativos dedicada a promover a inclusão social e o bem-estar de famílias em situação de vulnerabilidade. Atuamos com projetos voltados à <em>educação, saúde, sustentabilidade e geração de renda</em>.</p>
-    </section>
+  <div class="container">
+  
+      <div class="container_inicio">
+         <main>
+            <section class="secao_sobre_nos">
+              <h2>Sobre Nós</h2>
+              <div class="container_sobre">
+                <img src="imagens/banner.jpg" alt="Imagem ilustrativa da ONG em ação" width="400">
+              <p>A <strong>ONG Esperança Viva</strong> é uma organização sem fins lucrativos dedicada a promover a inclusão social e o bem-estar de famílias em situação de vulnerabilidade. Atuamos com projetos voltados à <em>educação, saúde, sustentabilidade e geração de renda</em>.</p>
+              </div>
+            </section>
 
-    <section>
-      <h2>Missão, Visão e Valores</h2>
-      <article>
-        <h3>Missão</h3>
-        <p>Transformar vidas por meio da solidariedade, da educação e do trabalho comunitário.</p>
-      </article>
+            <section>
+              <h2>Missão, Visão e Valores</h2>
+              <article>
+                <h3>Missão</h3>
+                <p>Transformar vidas por meio da solidariedade, da educação e do trabalho comunitário.</p>
+              </article>
 
-      <article>
-        <h3>Visão</h3>
-        <p>Ser referência nacional em projetos sociais sustentáveis e de impacto positivo nas comunidades carentes.</p>
-      </article>
+              <article>
+                <h3>Visão</h3>
+                <p>Ser referência nacional em projetos sociais sustentáveis e de impacto positivo nas comunidades carentes.</p>
+              </article>
 
-      <article>
-        <h3>Valores</h3>
-        <ul>
-          <li>Solidariedade</li>
-          <li>Transparência</li>
-          <li>Respeito</li>
-          <li>Inclusão</li>
-          <li>Sustentabilidade</li>
-        </ul>
-      </article>
-    </section>
-  </main>
+              <article>
+                <h3>Valores</h3>
+                <ul>
+                  <li>Solidariedade</li>
+                  <li>Transparência</li>
+                  <li>Respeito</li>
+                  <li>Inclusão</li>
+                  <li>Sustentabilidade</li>
+                </ul>
+              </article>
+            </section>
+        </main>
 
   <footer>
     <h2>Contato</h2>
@@ -60,7 +80,19 @@
       <p>☎️ (11) 4002-8922</p>
       <p>📧 <a href="mailto:contato@esperancaviva.org.br">contato@esperancaviva.org.br</a></p>
     </address>
-    <p>&copy; 2025 ONG Esperança Viva. Todos os direitos reservados.</p>
+    <p id="rodapecopyright">&copy; 2025 ONG Esperança Viva. Todos os direitos reservados.</p>
   </footer>
+      </div>
+
+  </div>
+  <!-- Script do menu hambúrguer -->
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navMenu = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  </script>
 </body>
 </html>
