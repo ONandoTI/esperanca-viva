@@ -11,7 +11,6 @@
   #rodapecopyright{ text-align: center; font-size: 12px;}
   .container_informacoes form {display: flex; }
   .informacoes img{ width: 85% }
-  .container{}
   .informacoes h1, h2, h3{ text-align: center;}
   .forms_container form,fieldset{
     width: 90%;
@@ -59,7 +58,8 @@
 
 /* Extra grande - telas muito grandes */
 @media (min-width: 1536px) {
-  body { max-width:1400px; margin:0 auto; }
+  body { min-width:1400px; margin:0 auto; }
   main { grid-template-columns: repeat(1, 1fr); }
+  footer{ width: 100%;}
 }
 

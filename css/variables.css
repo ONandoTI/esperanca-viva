@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+  font-family: var(--fonte-principal);
+  color: var(--cor-neutra-3);
+  background-color: var(--cor-neutra-1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
 :root {
   /* Minha Paleta de Cores */
