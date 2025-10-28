@@ -46,23 +46,41 @@ O projeto utiliza um **design system customizado** baseado em variáveis CSS:
 ## 🗂️ Estrutura de Pastas
 esperanca-viva/
 │
+
 ├── index.html
+
 ├── projetos.html
+
 ├── cadastro.html
+
 ├── doacao.html
+
 │
+
 ├── css/
-│ ├── variables.css # Variáveis e design system
-│ ├── layout.css # Estruturas principais e grid
-│ ├── components.css # Botões, header, cards etc.
-│ ├── forms.css # Estilização de formulários
-│ ├── mediaquery.css # Responsividade e breakpoints
+
+├── variables.css # Variáveis e design system
+
+├── layout.css # Estruturas principais e grid
+
+├── components.css # Botões, header, cards etc.
+
+├── forms.css # Estilização de formulários
+
+├── mediaquery.css # Responsividade e breakpoints
+
 │
+
 └── imagens/
+
 ├── logo.jpg
+
 ├── banner.jpg
+
 ├── projeto1.png
+
 ├── projeto2.png
+
 └── projeto3.png
 
 
