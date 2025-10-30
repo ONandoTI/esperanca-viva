@@ -65,54 +65,103 @@ Fernando
 📍 São Paulo - SP
 
 esperanca-viva-main/
+
 │
+
 ├── public/
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── logo192.png
-│   ├── logo512.png
-│   ├── manifest.json
-│   ├── robots.txt
+
+├── favicon.ico
+
+├── index.html
+
+├── logo192.png
+ 
+├── logo512.png
+
+├── manifest.json
+
+├── robots.txt
+
 │   └── imagens/
+
 │       ├── 1logo.jpg
+
 │       ├── banner.jpg
+
 │       ├── logo.jpg
+
 │       ├── projeto1.png
+
 │       ├── projeto2.png
+
 │       └── projeto3.png
+
 │
+
 ├── src/
+
 │   ├── App.css
+
 │   ├── App.js
+
 │   ├── App.test.js
+
 │   │
+
 │   ├── Cadastro.css
+
 │   ├── Cadastro.jsx
+
 │   │
+
 │   ├── Doacao.css
+
 │   ├── Doacao.jsx
+
 │   │
+
 │   ├── Footer.css
+
 │   ├── Footer.jsx
+
 │   │
+
 │   ├── index.css
+
 │   ├── index.js
+
 │   │
+
 │   ├── Inicio.css
+
 │   ├── Inicio.jsx
+
 │   │
+
 │   ├── Navbar.css
+
 │   ├── Navbar.jsx
+
 │   │
+
 │   ├── Projetos.css
+
 │   ├── Projetos.jsx
+
 │   │
+
 │   ├── logo.svg
+
 │   ├── reportWebVitals.js
+
 │   ├── setupTests.js
+
 │   │
+
 │   ├── package.json
+
 │   └── package-lock.json
+
 │
 ├── .gitignore
 └── README.md
