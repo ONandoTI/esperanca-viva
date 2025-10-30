@@ -1,0 +1,44 @@
+/* src/Footer.css */
+/* Este ficheiro estava em falta e causava um erro em Footer.js */
+.footer-container {
+  background-color: #1f2937; /* Um cinza escuro */
+  color: #d1d5db; /* Texto cinza claro */
+  padding: 2.5rem 1.5rem;
+  margin-top: auto; /* Garante que ele fique no final */
+  text-align: center;
+}
+
+.footer-container h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.footer-address {
+  font-style: normal; /* Remove o itálico padrão do <address> */
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.footer-address p {
+  margin-bottom: 0.5rem;
+}
+
+.footer-address a {
+  color: #93c5fd; /* Um azul claro para o link */
+  text-decoration: none;
+}
+
+.footer-address a:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  font-size: 0.875rem;
+  color: #9ca3af; /* Um cinza um pouco mais escuro */
+  border-top: 1px solid #374151; /* Linha divisória */
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+}
+

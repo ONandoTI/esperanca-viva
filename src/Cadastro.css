@@ -1,0 +1,173 @@
+/* ============================= */
+/* SEÇÃO PRINCIPAL DO CADASTRO   */
+/* ============================= */
+.cadastro-section {
+  max-width: 800px;
+  margin: 3rem auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2.5rem 3rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+/* Título */
+.cadastro-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #047c82;
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.5px;
+}
+
+/* ============================= */
+/* FORMULÁRIO                    */
+/* ============================= */
+.cadastro-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* ============================= */
+/* FIELDSETS                     */
+/* ============================= */
+.cadastro-fieldset {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1.8rem 1.5rem;
+  background-color: #fafafa;
+  transition: box-shadow 0.3s ease;
+  width: auto;
+}
+
+.cadastro-fieldset:hover {
+  box-shadow: 0 0 0 2px rgba(0, 150, 156, 0.15);
+}
+
+.cadastro-legend {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #02787c;
+  padding: 0 10px;
+}
+
+/* ============================= */
+/* GRID DOS CAMPOS               */
+/* ============================= */
+.cadastro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem 2rem;
+  margin-top: 1rem;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+/* ============================= */
+/* CAMPOS DE INPUT E SELECT      */
+/* ============================= */
+.cadastro-label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.4rem;
+}
+
+.cadastro-input,
+.cadastro-select {
+  width: 100%;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #111827;
+  background-color: #fff;
+  transition: all 0.25s ease;
+}
+
+.cadastro-input:focus,
+.cadastro-select:focus {
+  border-color: #00969c;
+  box-shadow: 0 0 0 3px rgba(0, 150, 156, 0.15);
+  outline: none;
+}
+
+.cadastro-input::placeholder {
+  color: #9ca3af;
+}
+
+/* ============================= */
+/* BOTÕES                        */
+/* ============================= */
+.cadastro-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.cadastro-btn {
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cadastro-btn-enviar {
+  background-color: #00969c;
+  color: #fff;
+}
+
+.cadastro-btn-enviar:hover {
+  background-color: #02787c;
+  transform: translateY(-2px);
+}
+
+.cadastro-btn-limpar {
+  background-color: #e5e7eb;
+  color: #374151;
+}
+
+.cadastro-btn-limpar:hover {
+  background-color: #d1d5db;
+  transform: translateY(-2px);
+}
+
+/* ============================= */
+/* RESPONSIVIDADE                */
+/* ============================= */
+@media (max-width: 768px) {
+  .cadastro-section {
+    margin: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .cadastro-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cadastro-section h2 {
+    font-size: 1.7rem;
+  }
+
+  .cadastro-btn {
+    width: 100%;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 900px) {
+  .cadastro-section {
+    max-width: 680px;
+    padding: 2rem;
+  }
+}
