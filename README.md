@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 🌿 ONG Esperança Viva
 
 Entrega III – Interatividade e JavaScript Avançado
