@@ -280,8 +280,8 @@ export default function Cadastro() {
         </fieldset>
 
         <div className="cadastro-buttons">
-          <button type="submit" className="cadastro-btn cadastro-btn-enviar">
-            Enviar
+          <button type="submit" className="btn btn-success">
+            Cadastrar-se
           </button>
           <button
             type="button"

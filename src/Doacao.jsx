@@ -238,7 +238,7 @@ export default function Doacao() {
         </fieldset>
 
         <div className="doacao-buttons">
-          <button type="submit" className="btn-enviar">
+          <button type="submit" className="btn btn-success">
             Enviar Doação
           </button>
           <button
