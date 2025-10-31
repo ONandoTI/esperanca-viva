@@ -6,6 +6,7 @@ import Cadastro from './Cadastro'; // 3. Importamos a nova página de Cadastro
 import Footer from './Footer'; // 4. Importamos o rodapé
 import Doacao from './Doacao'; // 4. Importamos a nova página de Doação
 import './css/App.css'; // O CSS original que estiliza a página 'Inicio'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   // 5. Estado para controlar a página atual

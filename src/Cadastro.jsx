@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./css/Cadastro.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Cadastro() {
   const [formData, setFormData] = useState({
