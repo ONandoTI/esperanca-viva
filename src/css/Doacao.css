@@ -13,7 +13,7 @@
   text-align: center;
   font-size: 2rem;
   font-weight: 700;
-  color: #0066cc;
+  color: var(--cor-form-title);
   margin-bottom: 1rem;
 }
 
@@ -23,6 +23,7 @@
   color: var(--cor-text-light);
   margin-bottom: 2rem;
   line-height: 1.6;
+  font-weight: 600;
 }
 
 .doacao-form {
@@ -82,7 +83,7 @@
 .doacao-grid input:focus,
 .doacao-grid select:focus,
 .doacao-grid textarea:focus {
-  border-color: #007bff;
+  border-color: var(--cor-form-title);
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
   outline: none;
 }
@@ -119,13 +120,15 @@
   transition: 0.3s;
 }
 
-.btn-enviar {
-  background-color: #007bff;
-  color: white;
+.btn-success {
+  background-color: var(--cor-form-title);
+  color: #fdfdfd;
+  font-weight: 600;
 }
 
 .btn-enviar:hover {
-  background-color: #005fcc;
+  background-color: #028085;
+  color: #fff;
 }
 
 .btn-limpar {

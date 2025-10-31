@@ -28,12 +28,13 @@ code {
   --cor-neutra-4: #9ca3af;
   --cor-erro: #e53935;
   --cor-sucesso: #0ea989;
-  --cor-gradiente-0: #00969c;
-  --cor-gradiente-100: #00b3a8;
+  --cor-gradiente-0: #10633f;
+  --cor-gradiente-100: #013d1c;
   --cor-text-light: #1f2937;
   --cor-article-cards: #f3f4f6;
   --cor-borda-form:#a3d9da;
   --cor-text-mobile-nav: #f3f4f6;
+  --cor-form-title: #013d1c;
 
   --fonte-principal: 'Poppins', sans-serif;
   --tamanho-h1: 2.5rem;
@@ -57,9 +58,7 @@ code {
 [data-theme='dark'] {
   --color-bg: #131313;
   --color-text: #f5f5f5;
-  --color-primary: #66aaff;
   --color-nav-bg: #1e1e1e;
-  --color-link-hover: #3399ff;
   --cor-neutra-0: #131313;
 
   /* Navbar ------ */
@@ -73,13 +72,19 @@ code {
   /* formulario de cadastro */
   --cor-borda-form:#028085;
   --cor-form: var(--cor-neutra-3);
+  --cor-form-title: #00db63;
+
   .ev-navbar-logo .logo-image{
     filter: grayscale(100%);
     transition: filter 0.3s ease; /* opcional, para suavizar mudanças */
   }
+
   #mobile-menu{
     background: linear-gradient(90deg, var(--cor-gradiente-0) 0%, var(--cor-gradiente-100) 100%);
     color: var(--cor-text-mobile-nav);
+  }
+  .btn-success {
+    color: #ffffff;
   }
   
 }
