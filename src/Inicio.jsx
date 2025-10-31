@@ -1,5 +1,5 @@
 import React from 'react';
-import './Inicio.css';
+import './css/Inicio.css';
 import banner from './imagens/banner.jpg';
 
 function Inicio() {
