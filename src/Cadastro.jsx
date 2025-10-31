@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "./Cadastro.css";
+import "./css/Cadastro.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Cadastro() {
   const [formData, setFormData] = useState({
@@ -115,7 +116,7 @@ export default function Cadastro() {
 
           <div className="cadastro-grid">
             <div>
-              <label htmlFor="nome" className="cadastro-label">
+              <label htmlFor="nome" className="form-label">
                 Nome Completo:
               </label>
               <input
@@ -131,7 +132,7 @@ export default function Cadastro() {
             </div>
 
             <div>
-              <label htmlFor="email" className="cadastro-label">
+              <label htmlFor="email" className="form-label">
                 E-mail:
               </label>
               <input
@@ -147,7 +148,7 @@ export default function Cadastro() {
             </div>
 
             <div>
-              <label htmlFor="cpf" className="cadastro-label">
+              <label htmlFor="cpf" className="form-label">
                 CPF:
               </label>
               <input
@@ -164,7 +165,7 @@ export default function Cadastro() {
             </div>
 
             <div>
-              <label htmlFor="telefone" className="cadastro-label">
+              <label htmlFor="telefone" className="form-label">
                 Telefone:
               </label>
               <input
@@ -181,7 +182,7 @@ export default function Cadastro() {
             </div>
 
             <div className="full-width">
-              <label htmlFor="nascimento" className="cadastro-label">
+              <label htmlFor="nascimento" className="form-label">
                 Data de Nascimento:
               </label>
               <input
@@ -205,7 +206,7 @@ export default function Cadastro() {
 
           <div className="cadastro-grid">
             <div className="full-width">
-              <label htmlFor="endereco" className="cadastro-label">
+              <label htmlFor="endereco" className="form-label">
                 Endereço:
               </label>
               <input
@@ -221,7 +222,7 @@ export default function Cadastro() {
             </div>
 
             <div>
-              <label htmlFor="cep" className="cadastro-label">
+              <label htmlFor="cep" className="form-label">
                 CEP:
               </label>
               <input
@@ -238,7 +239,7 @@ export default function Cadastro() {
             </div>
 
             <div>
-              <label htmlFor="cidade" className="cadastro-label">
+              <label htmlFor="cidade" className="form-label">
                 Cidade:
               </label>
               <input
@@ -254,7 +255,7 @@ export default function Cadastro() {
             </div>
 
             <div className="full-width">
-              <label htmlFor="estado" className="cadastro-label">
+              <label htmlFor="estado" className="form-label">
                 Estado:
               </label>
               <select
